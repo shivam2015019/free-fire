@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 220px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+-webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+transform: scaleY();
+}
